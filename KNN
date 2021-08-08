@@ -1,0 +1,9 @@
+# iris.csv
+import pandas as pd
+import numpy as np
+
+data = pd.read_csv("Desktop/iris.csv")
+# 查看data数据一共有多少条数据
+len(data)
+# 查看Name项有多少种类型，以及每个类型有多少数量
+data["Name"].value_counts()
